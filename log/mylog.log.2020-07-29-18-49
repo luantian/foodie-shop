@@ -1,0 +1,25 @@
+2020-07-29 18:49:06 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-07-29 18:49:07 INFO  Application:50 - Starting Application on 192.168.1.101 with PID 2357 (/Users/terence/Documents/studyspace/foodie/foodie-api/target/classes started by terence in /Users/terence/Documents/studyspace/foodie)
+2020-07-29 18:49:07 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2020-07-29 18:49:09 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-07-29 18:49:09 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd9107da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-29 18:49:10 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2020-07-29 18:49:10 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 2837 ms
+2020-07-29 18:49:12 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-29 18:49:12 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-07-29 18:49:12 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-07-29 18:49:12 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-07-29 18:49:12 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-07-29 18:49:12 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2020-07-29 18:49:12 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2020-07-29 18:49:12 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2020-07-29 18:49:12 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8088 (http) with context path ''
+2020-07-29 18:49:12 INFO  Application:59 - Started Application in 6.159 seconds (JVM running for 8.893)
+2020-07-29 18:49:16 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-07-29 18:49:16 INFO  DispatcherServlet:546 - Completed initialization in 14 ms
+2020-07-29 18:49:16 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.StuServiceImpl.getStuInfo ======
+2020-07-29 18:49:16 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-07-29 18:49:16 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-07-29 18:49:16 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 438 毫秒 ======
+2020-07-29 18:49:29 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.StuServiceImpl.getStuInfo ======
+2020-07-29 18:49:29 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 9 毫秒 ======

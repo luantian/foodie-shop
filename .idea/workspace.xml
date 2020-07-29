@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fFdupxUhrzUObHdRRU1iwlEgdG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
+      <recent name="$PROJECT_DIR$/foodie-common/src/main/java/com/imooc/enums" />
+      <recent name="$PROJECT_DIR$/foodie-common/src/main/java/com/imooc/utils" />
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.service.impl" />
+      <recent name="com.imooc.service" />
+      <recent name="com.imooc.pojo" />
+      <recent name="com.imooc.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/my/mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="foodie-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="" />
+      <created>1595817999282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595817999282</updated>
+      <workItem from="1595818000703" duration="7766000" />
+      <workItem from="1595840692059" duration="63000" />
+      <workItem from="1595842026761" duration="851000" />
+      <workItem from="1595843327778" duration="1640000" />
+      <workItem from="1595846568623" duration="4013000" />
+      <workItem from="1595852997394" duration="2641000" />
+      <workItem from="1595899112742" duration="11092000" />
+      <workItem from="1595926869598" duration="63000" />
+      <workItem from="1595927356618" duration="7900000" />
+      <workItem from="1595950776593" duration="1915000" />
+      <workItem from="1595991136081" duration="6632000" />
+      <workItem from="1596014682281" duration="3525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser" timestamp="1595930682065">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595930682065" />
+    <state x="2321" y="359" key="#项目结构" timestamp="1595928375150">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2321" y="359" key="#项目结构/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595928375150" />
+    <state width="2518" height="410" key="GridCell.Tab.0.bottom" timestamp="1596021827064">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021827064" />
+    <state width="2515" height="467" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836657" />
+    <state width="2518" height="410" key="GridCell.Tab.0.center" timestamp="1596021827062">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021827062" />
+    <state width="2515" height="467" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
+    <state width="2518" height="410" key="GridCell.Tab.0.left" timestamp="1596021827062">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021827062" />
+    <state width="2515" height="467" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
+    <state width="2518" height="410" key="GridCell.Tab.0.right" timestamp="1596021827063">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021827063" />
+    <state width="2515" height="467" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
+    <state width="2518" height="410" key="GridCell.Tab.1.bottom" timestamp="1596021826813">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826813" />
+    <state width="1398" height="326" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
+    <state width="2518" height="410" key="GridCell.Tab.1.center" timestamp="1596021826811">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826811" />
+    <state width="1398" height="326" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
+    <state width="2518" height="410" key="GridCell.Tab.1.left" timestamp="1596021826810">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826810" />
+    <state width="1398" height="326" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
+    <state width="2518" height="410" key="GridCell.Tab.1.right" timestamp="1596021826812">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826812" />
+    <state width="1398" height="326" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
+    <state width="2518" height="410" key="GridCell.Tab.2.bottom" timestamp="1596021826843">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.2.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826843" />
+    <state width="1398" height="326" key="GridCell.Tab.2.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
+    <state width="2518" height="410" key="GridCell.Tab.2.center" timestamp="1596021826841">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.2.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826841" />
+    <state width="1398" height="326" key="GridCell.Tab.2.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
+    <state width="2518" height="410" key="GridCell.Tab.2.left" timestamp="1596021826815">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.2.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826815" />
+    <state width="1398" height="326" key="GridCell.Tab.2.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
+    <state width="2518" height="410" key="GridCell.Tab.2.right" timestamp="1596021826842">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="410" key="GridCell.Tab.2.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596021826842" />
+    <state width="1398" height="326" key="GridCell.Tab.2.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
+    <state x="2367" y="402" key="NewModule_or_Project.wizard" timestamp="1595846451813">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2367" y="402" key="NewModule_or_Project.wizard/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595846451813" />
+    <state x="2230" y="331" key="SettingsEditor" timestamp="1595901764359">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2230" y="331" key="SettingsEditor/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595901764359" />
+    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1596014682089">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596014682089" />
+    <state x="2405" y="456" width="674" height="472" key="find.popup" timestamp="1595850599085">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2405" y="456" width="674" height="472" key="find.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595850599085" />
+    <state x="2115" y="393" key="new project wizard" timestamp="1595818271940">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2115" y="393" key="new project wizard/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595818271940" />
+    <state x="2386" y="326" width="670" height="675" key="run.anything.popup" timestamp="1596018692051">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2386" y="326" width="670" height="675" key="run.anything.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596018692051" />
+    <state x="2386" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1596019202621">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2386" y="328" width="670" height="676" key="search.everywhere.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596019202621" />
+  </component>
+</project>
