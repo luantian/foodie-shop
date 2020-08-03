@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/CategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/SubCategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CarouselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-19-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-23-13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-23-15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-23-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-23-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-29-23-59" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-30-00-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-30-00-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-30-00-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-07-30-00-18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mylog.log.2020-08-03-20-36" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/config/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/mylog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +113,7 @@
       <workItem from="1596168667234" duration="9000" />
       <workItem from="1596169338873" duration="1027000" />
       <workItem from="1596433340971" duration="372000" />
-      <workItem from="1596434356370" duration="4654000" />
+      <workItem from="1596434356370" duration="4792000" />
     </task>
     <servers />
   </component>
