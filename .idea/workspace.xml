@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,7 @@
       <workItem from="1596168667234" duration="9000" />
       <workItem from="1596169338873" duration="1027000" />
       <workItem from="1596433340971" duration="372000" />
-      <workItem from="1596434356370" duration="4792000" />
+      <workItem from="1596434356370" duration="4828000" />
     </task>
     <servers />
   </component>
