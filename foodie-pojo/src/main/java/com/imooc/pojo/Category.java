@@ -1,204 +1,193 @@
 package com.imooc.pojo;
 
-import java.util.Date;
 import javax.persistence.*;
 
 public class Category {
+    /**
+     * 主键
+     */
     @Id
     private Integer id;
 
+    /**
+     * 分类名称
+     */
     private String name;
 
-    private String description;
-
-    @Column(name = "create_time")
-    private Date createTime;
-
-    @Column(name = "update_time")
-    private Date updateTime;
-
-    @Column(name = "delete_time")
-    private Date deleteTime;
-
-    @Column(name = "is_root")
-    private Byte isRoot;
-
-    @Column(name = "parent_id")
-    private Integer parentId;
-
-    private String img;
-
-    private Integer index;
-
-    private Integer online;
-
-    private Integer level;
+    /**
+     * 分类类型
+     */
+    private Integer type;
 
     /**
-     * @return id
+     * 父id
+     */
+    @Column(name = "father_id")
+    private Integer fatherId;
+
+    /**
+     * 图标
+     */
+    private String logo;
+
+    /**
+     * 口号
+     */
+    private String slogan;
+
+    /**
+     * 分类图
+     */
+    @Column(name = "cat_image")
+    private String catImage;
+
+    /**
+     * 背景颜色
+     */
+    @Column(name = "bg_color")
+    private String bgColor;
+
+    /**
+     * 获取主键
+     *
+     * @return id - 主键
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * @param id
+     * 设置主键
+     *
+     * @param id 主键
      */
     public void setId(Integer id) {
         this.id = id;
     }
 
     /**
-     * @return name
+     * 获取分类名称
+     *
+     * @return name - 分类名称
      */
     public String getName() {
         return name;
     }
 
     /**
-     * @param name
+     * 设置分类名称
+     *
+     * @param name 分类名称
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     * @return description
+     * 获取分类类型
+     *
+     * @return type - 分类类型
      */
-    public String getDescription() {
-        return description;
+    public Integer getType() {
+        return type;
     }
 
     /**
-     * @param description
+     * 设置分类类型
+     *
+     * @param type 分类类型
      */
-    public void setDescription(String description) {
-        this.description = description;
+    public void setType(Integer type) {
+        this.type = type;
     }
 
     /**
-     * @return create_time
+     * 获取父id
+     *
+     * @return father_id - 父id
      */
-    public Date getCreateTime() {
-        return createTime;
+    public Integer getFatherId() {
+        return fatherId;
     }
 
     /**
-     * @param createTime
+     * 设置父id
+     *
+     * @param fatherId 父id
      */
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setFatherId(Integer fatherId) {
+        this.fatherId = fatherId;
     }
 
     /**
-     * @return update_time
+     * 获取图标
+     *
+     * @return logo - 图标
      */
-    public Date getUpdateTime() {
-        return updateTime;
+    public String getLogo() {
+        return logo;
     }
 
     /**
-     * @param updateTime
+     * 设置图标
+     *
+     * @param logo 图标
      */
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setLogo(String logo) {
+        this.logo = logo;
     }
 
     /**
-     * @return delete_time
+     * 获取口号
+     *
+     * @return slogan - 口号
      */
-    public Date getDeleteTime() {
-        return deleteTime;
+    public String getSlogan() {
+        return slogan;
     }
 
     /**
-     * @param deleteTime
+     * 设置口号
+     *
+     * @param slogan 口号
      */
-    public void setDeleteTime(Date deleteTime) {
-        this.deleteTime = deleteTime;
+    public void setSlogan(String slogan) {
+        this.slogan = slogan;
     }
 
     /**
-     * @return is_root
+     * 获取分类图
+     *
+     * @return cat_image - 分类图
      */
-    public Byte getIsRoot() {
-        return isRoot;
+    public String getCatImage() {
+        return catImage;
     }
 
     /**
-     * @param isRoot
+     * 设置分类图
+     *
+     * @param catImage 分类图
      */
-    public void setIsRoot(Byte isRoot) {
-        this.isRoot = isRoot;
+    public void setCatImage(String catImage) {
+        this.catImage = catImage;
     }
 
     /**
-     * @return parent_id
+     * 获取背景颜色
+     *
+     * @return bg_color - 背景颜色
      */
-    public Integer getParentId() {
-        return parentId;
+    public String getBgColor() {
+        return bgColor;
     }
 
     /**
-     * @param parentId
+     * 设置背景颜色
+     *
+     * @param bgColor 背景颜色
      */
-    public void setParentId(Integer parentId) {
-        this.parentId = parentId;
-    }
-
-    /**
-     * @return img
-     */
-    public String getImg() {
-        return img;
-    }
-
-    /**
-     * @param img
-     */
-    public void setImg(String img) {
-        this.img = img;
-    }
-
-    /**
-     * @return index
-     */
-    public Integer getIndex() {
-        return index;
-    }
-
-    /**
-     * @param index
-     */
-    public void setIndex(Integer index) {
-        this.index = index;
-    }
-
-    /**
-     * @return online
-     */
-    public Integer getOnline() {
-        return online;
-    }
-
-    /**
-     * @param online
-     */
-    public void setOnline(Integer online) {
-        this.online = online;
-    }
-
-    /**
-     * @return level
-     */
-    public Integer getLevel() {
-        return level;
-    }
-
-    /**
-     * @param level
-     */
-    public void setLevel(Integer level) {
-        this.level = level;
+    public void setBgColor(String bgColor) {
+        this.bgColor = bgColor;
     }
 }

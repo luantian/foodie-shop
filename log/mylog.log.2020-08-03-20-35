@@ -1,0 +1,6 @@
+2020-08-03 20:35:45 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat ======
+2020-08-03 20:35:45 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 47 毫秒 ======
+2020-08-03 20:35:56 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList ======
+2020-08-03 20:35:56 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 9 毫秒 ======
+2020-08-03 20:35:59 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList ======
+2020-08-03 20:35:59 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 10 毫秒 ======

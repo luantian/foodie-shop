@@ -1,0 +1,2 @@
+2020-07-29 23:26:49 INFO  ServiceLogAspect:42 - ====== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll ======
+2020-07-29 23:26:49 INFO  ServiceLogAspect:61 - ====== 执行结束, 耗时: 4 毫秒 ======
