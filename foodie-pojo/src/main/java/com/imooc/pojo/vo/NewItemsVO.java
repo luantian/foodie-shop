@@ -3,54 +3,63 @@ package com.imooc.pojo.vo;
 import java.util.List;
 
 /**
- * 二级分类VO
+ * 最新商品VO
  */
-public class CategoryVO {
-    private Integer id;
-    private String name;
-    private String type;
-    private Integer fatherId;
+public class NewItemsVO {
 
-    //三级分类vo list
-    private List<SubCategoryVO> subCatList;
+    private Integer rootCatId;
+    private String rootCatName;
+    private String slogan;
+    private String catImg;
+    private String bgColor;
 
-    public Integer getId() {
-        return id;
+    private List<SimpleItemVO> SimpleItemList;
+
+    public Integer getRootCatId() {
+        return rootCatId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setRootCatId(Integer rootCatId) {
+        this.rootCatId = rootCatId;
     }
 
-    public String getName() {
-        return name;
+    public String getRootCatName() {
+        return rootCatName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRootCatName(String rootCatName) {
+        this.rootCatName = rootCatName;
     }
 
-    public String getType() {
-        return type;
+    public String getSlogan() {
+        return slogan;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setSlogan(String slogan) {
+        this.slogan = slogan;
     }
 
-    public Integer getFatherId() {
-        return fatherId;
+    public String getCatImg() {
+        return catImg;
     }
 
-    public void setFatherId(Integer fatherId) {
-        this.fatherId = fatherId;
+    public void setCatImg(String catImg) {
+        this.catImg = catImg;
     }
 
-    public List<SubCategoryVO> getSubCatList() {
-        return subCatList;
+    public String getBgColor() {
+        return bgColor;
     }
 
-    public void setSubCatList(List<SubCategoryVO> subCatList) {
-        this.subCatList = subCatList;
+    public void setBgColor(String bgColor) {
+        this.bgColor = bgColor;
+    }
+
+    public List<SimpleItemVO> getSimpleItemList() {
+        return SimpleItemList;
+    }
+
+    public void setSimpleItemList(List<SimpleItemVO> simpleItemList) {
+        SimpleItemList = simpleItemList;
     }
 }

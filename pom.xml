@@ -112,6 +112,7 @@
             <version>1.6</version>
         </dependency>
 
+        <!-- 日志记录配置-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

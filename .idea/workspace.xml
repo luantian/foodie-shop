@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/ItemInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/NewItemsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/SimpleItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/mylog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +72,24 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/my/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.pojo.vo" />
+      <recent name="com.imooc.mapper" />
+      <recent name="com.imooc.service.impl" />
+      <recent name="com.imooc.service" />
+      <recent name="com.imooc.pojo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
       <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
       <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-common/src/main/java/com/imooc/enums" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.mapper" />
-      <recent name="com.imooc.service.impl" />
-      <recent name="com.imooc.service" />
-      <recent name="com.imooc.pojo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/my/mapper" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +139,10 @@
       <workItem from="1596168667234" duration="9000" />
       <workItem from="1596169338873" duration="1027000" />
       <workItem from="1596433340971" duration="372000" />
-      <workItem from="1596434356370" duration="4828000" />
+      <workItem from="1596434356370" duration="5407000" />
+      <workItem from="1596468599723" duration="3114000" />
+      <workItem from="1596510581978" duration="3477000" />
+      <workItem from="1597709828359" duration="5000" />
     </task>
     <servers />
   </component>
@@ -125,73 +153,73 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser" timestamp="1596455735821">
+    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser" timestamp="1596515465692">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596455735821" />
-    <state x="2321" y="359" key="#项目结构" timestamp="1596454182890">
+    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515465692" />
+    <state x="2321" y="359" key="#项目结构" timestamp="1596512847863">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2321" y="359" key="#项目结构/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596454182890" />
-    <state width="2515" height="419" key="GridCell.Tab.0.bottom" timestamp="1596457940817">
+    <state x="2321" y="359" key="#项目结构/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596512847863" />
+    <state width="2515" height="442" key="GridCell.Tab.0.bottom" timestamp="1596515979621">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940817" />
+    <state width="2515" height="442" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
     <state width="2515" height="467" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836657" />
-    <state width="2515" height="419" key="GridCell.Tab.0.center" timestamp="1596457940816">
+    <state width="2515" height="442" key="GridCell.Tab.0.center" timestamp="1596515979620">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940816" />
+    <state width="2515" height="442" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
     <state width="2515" height="467" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="419" key="GridCell.Tab.0.left" timestamp="1596457940815">
+    <state width="2515" height="442" key="GridCell.Tab.0.left" timestamp="1596515979620">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940815" />
+    <state width="2515" height="442" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
     <state width="2515" height="467" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="419" key="GridCell.Tab.0.right" timestamp="1596457940817">
+    <state width="2515" height="442" key="GridCell.Tab.0.right" timestamp="1596515979620">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940817" />
+    <state width="2515" height="442" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
     <state width="2515" height="467" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="419" key="GridCell.Tab.1.bottom" timestamp="1596457940664">
+    <state width="2515" height="442" key="GridCell.Tab.1.bottom" timestamp="1596515979622">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940664" />
+    <state width="2515" height="442" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
     <state width="1398" height="326" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="419" key="GridCell.Tab.1.center" timestamp="1596457940664">
+    <state width="2515" height="442" key="GridCell.Tab.1.center" timestamp="1596515979621">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940664" />
+    <state width="2515" height="442" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
     <state width="1398" height="326" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="419" key="GridCell.Tab.1.left" timestamp="1596457940663">
+    <state width="2515" height="442" key="GridCell.Tab.1.left" timestamp="1596515979621">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940663" />
+    <state width="2515" height="442" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
     <state width="1398" height="326" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="419" key="GridCell.Tab.1.right" timestamp="1596457940664">
+    <state width="2515" height="442" key="GridCell.Tab.1.right" timestamp="1596515979621">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940664" />
+    <state width="2515" height="442" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
     <state width="1398" height="326" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="419" key="GridCell.Tab.2.bottom" timestamp="1596457940666">
+    <state width="2515" height="442" key="GridCell.Tab.2.bottom" timestamp="1596515979623">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.2.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940666" />
+    <state width="2515" height="442" key="GridCell.Tab.2.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979623" />
     <state width="1398" height="326" key="GridCell.Tab.2.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
-    <state width="2515" height="419" key="GridCell.Tab.2.center" timestamp="1596457940665">
+    <state width="2515" height="442" key="GridCell.Tab.2.center" timestamp="1596515979622">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.2.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940665" />
+    <state width="2515" height="442" key="GridCell.Tab.2.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
     <state width="1398" height="326" key="GridCell.Tab.2.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
-    <state width="2515" height="419" key="GridCell.Tab.2.left" timestamp="1596457940665">
+    <state width="2515" height="442" key="GridCell.Tab.2.left" timestamp="1596515979622">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.2.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940665" />
+    <state width="2515" height="442" key="GridCell.Tab.2.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
     <state width="1398" height="326" key="GridCell.Tab.2.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="419" key="GridCell.Tab.2.right" timestamp="1596457940666">
+    <state width="2515" height="442" key="GridCell.Tab.2.right" timestamp="1596515979622">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2515" height="419" key="GridCell.Tab.2.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596457940666" />
+    <state width="2515" height="442" key="GridCell.Tab.2.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
     <state width="1398" height="326" key="GridCell.Tab.2.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
     <state x="2367" y="402" key="NewModule_or_Project.wizard" timestamp="1595846451813">
       <screen x="1440" y="23" width="2560" height="1417" />
@@ -201,10 +229,10 @@
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2230" y="331" key="SettingsEditor/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595901764359" />
-    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1596168667546">
+    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1597709828401">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596168667546" />
+    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1597709828401" />
     <state x="2405" y="456" width="674" height="472" key="find.popup" timestamp="1595850599085">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
