@@ -58,7 +58,7 @@ public class ItemController {
             @RequestParam String itemId
     ) {
         CommentLevelCountsVO countsVO = itemService.queryCommentCounts(itemId);
-        return JSONResult.ok(countsVO);
+        return JSONResult.ok(countsVO); 
     }
 
 }
