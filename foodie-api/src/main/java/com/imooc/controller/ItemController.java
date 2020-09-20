@@ -4,6 +4,7 @@ import com.imooc.pojo.Items;
 import com.imooc.pojo.ItemsImg;
 import com.imooc.pojo.ItemsParam;
 import com.imooc.pojo.ItemsSpec;
+import com.imooc.pojo.vo.CommentLevelCountsVO;
 import com.imooc.pojo.vo.ItemInfoVO;
 import com.imooc.service.ItemService;
 import com.imooc.utils.JSONResult;
@@ -12,10 +13,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -39,18 +37,28 @@ public class ItemController {
         }
 
         Items item = itemService.queryItemById(itemId);
-        List<ItemsImg> itemsImgList = itemService.queryItemImgList(itemId);
-        List<ItemsSpec> itemsSpecList = itemService.queryItemSpecList(itemId);
-        ItemsParam itemsParam = itemService.queryItemParam(itemId);
+        List<ItemsImg> itemImgList = itemService.queryItemImgList(itemId);
+        List<ItemsSpec> itemSpecList = itemService.queryItemSpecList(itemId);
+        ItemsParam itemParam = itemService.queryItemParam(itemId);
 
         ItemInfoVO itemInfoVO = new ItemInfoVO();
 
         itemInfoVO.setItem(item);
-        itemInfoVO.setItemsImgList(itemsImgList);
-        itemInfoVO.setItemsSpecList(itemsSpecList);
-        itemInfoVO.setItemsParam(itemsParam);
+        itemInfoVO.setItemImgList(itemImgList);
+        itemInfoVO.setItemSpecList(itemSpecList);
+        itemInfoVO.setItemParams(itemParam);
 
         return JSONResult.ok(itemInfoVO);
+    }
+
+    @ApiOperation(value = "查询商品评价等级", notes="查询商品评价等级", httpMethod = "GET")
+    @GetMapping("/commentLevel")
+    public JSONResult commentLevel(
+            @ApiParam(name = "itemId", value="商品id", required = true)
+            @RequestParam String itemId
+    ) {
+        CommentLevelCountsVO countsVO = itemService.queryCommentCounts(itemId);
+        return JSONResult.ok(countsVO);
     }
 
 }

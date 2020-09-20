@@ -1,33 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/ItemInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/NewItemsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/SimpleItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
+    <list default="true" id="566cc51d-5c5c-4b6a-b3b2-7e94d3ce84d0" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/CommentLevelCountsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/ItemCommentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/mylog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/foodie-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/foodie-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/META-INF/foodie-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/aspect/ServiceLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/config/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/PassportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/StuFooController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/foodie-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-common/foodie-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/enums/CommentLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/enums/Sex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/enums/YesOrNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/DesensitizationUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/JSONResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/MobileEmailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/com/imooc/utils/PagedGridResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/DayCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/Id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/InvalidSystemClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/RandomCodeStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/Sid$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/Sid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/WorkerIdStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/strategy/FileLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/HttpReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/Ip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/Props$Silent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/Props.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/Serializes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/classes/org/n3r/idworker/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/foodie-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/foodie-mapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CarouselMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsCommentsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsImgMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsParamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsSpecMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrderItemsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrderStatusMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrdersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/StuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/UserAddressMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/my/mapper/MyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CarouselMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/itemsMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/ItemsCommentsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/ItemsImgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/ItemsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/ItemsParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/ItemsSpecMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/OrderItemsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/OrderStatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/StuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/UserAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/foodie-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/foodie-pojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/ItemInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/vo/ItemInfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Carousel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsImg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/OrderItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Stu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/UserAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/bo/UserBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/vo/CategoryVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/vo/ItemInfoVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/vo/NewItemsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/vo/SimpleItemVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/vo/SubCategoryVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/foodie-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/foodie-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CarouselService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/CarouselService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/META-INF/foodie-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CarouselService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/StuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CarouselServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/StuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +168,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,10 +175,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fFdupxUhrzUObHdRRU1iwlEgdG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
+  <component name="ProjectId" id="1hifRfwmiYKs61GD48lY5FkjCKZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,40 +183,24 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.mapper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/my/mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.pojo.vo" />
-      <recent name="com.imooc.mapper" />
-      <recent name="com.imooc.service.impl" />
-      <recent name="com.imooc.service" />
-      <recent name="com.imooc.pojo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
-      <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
-      <recent name="$PROJECT_DIR$/foodie-common/src/main/java/com/imooc/enums" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,137 +228,85 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a75cc88d-79a1-4f0c-bdcb-9c7c694e5a25" name="默认更改列表" comment="" />
-      <created>1595817999282</created>
+      <changelist id="566cc51d-5c5c-4b6a-b3b2-7e94d3ce84d0" name="默认更改列表" comment="" />
+      <created>1600498826873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595817999282</updated>
-      <workItem from="1595818000703" duration="7766000" />
-      <workItem from="1595840692059" duration="63000" />
-      <workItem from="1595842026761" duration="851000" />
-      <workItem from="1595843327778" duration="1640000" />
-      <workItem from="1595846568623" duration="4013000" />
-      <workItem from="1595852997394" duration="2641000" />
-      <workItem from="1595899112742" duration="11092000" />
-      <workItem from="1595926869598" duration="63000" />
-      <workItem from="1595927356618" duration="7900000" />
-      <workItem from="1595950776593" duration="1915000" />
-      <workItem from="1595991136081" duration="6632000" />
-      <workItem from="1596014682281" duration="8431000" />
-      <workItem from="1596038561014" duration="731000" />
-      <workItem from="1596081422116" duration="1102000" />
-      <workItem from="1596168667234" duration="9000" />
-      <workItem from="1596169338873" duration="1027000" />
-      <workItem from="1596433340971" duration="372000" />
-      <workItem from="1596434356370" duration="5407000" />
-      <workItem from="1596468599723" duration="3114000" />
-      <workItem from="1596510581978" duration="3477000" />
-      <workItem from="1597709828359" duration="5000" />
+      <updated>1600498826873</updated>
+      <workItem from="1600498829838" duration="2426000" />
+      <workItem from="1600511922453" duration="3228000" />
+      <workItem from="1600516002835" duration="7566000" />
+      <workItem from="1600565801531" duration="10747000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser" timestamp="1596515465692">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1600593295258">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="2555" y="405" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515465692" />
-    <state x="2321" y="359" key="#项目结构" timestamp="1596512847863">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600593295258" />
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom" timestamp="1600592735205">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="2321" y="359" key="#项目结构/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596512847863" />
-    <state width="2515" height="442" key="GridCell.Tab.0.bottom" timestamp="1596515979621">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735205" />
+    <state width="1398" height="163" key="GridCell.Tab.0.center" timestamp="1600592735204">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
-    <state width="2515" height="467" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836657" />
-    <state width="2515" height="442" key="GridCell.Tab.0.center" timestamp="1596515979620">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735204" />
+    <state width="1398" height="163" key="GridCell.Tab.0.left" timestamp="1600592735203">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
-    <state width="2515" height="467" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="442" key="GridCell.Tab.0.left" timestamp="1596515979620">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735203" />
+    <state width="1398" height="163" key="GridCell.Tab.0.right" timestamp="1600592735205">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
-    <state width="2515" height="467" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="442" key="GridCell.Tab.0.right" timestamp="1596515979620">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735205" />
+    <state width="1398" height="163" key="GridCell.Tab.1.bottom" timestamp="1600592735206">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979620" />
-    <state width="2515" height="467" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836656" />
-    <state width="2515" height="442" key="GridCell.Tab.1.bottom" timestamp="1596515979622">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735206" />
+    <state width="1398" height="163" key="GridCell.Tab.1.center" timestamp="1600592735206">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
-    <state width="1398" height="326" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="442" key="GridCell.Tab.1.center" timestamp="1596515979621">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735206" />
+    <state width="1398" height="163" key="GridCell.Tab.1.left" timestamp="1600592735205">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
-    <state width="1398" height="326" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="442" key="GridCell.Tab.1.left" timestamp="1596515979621">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735205" />
+    <state width="1398" height="163" key="GridCell.Tab.1.right" timestamp="1600592735206">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
-    <state width="1398" height="326" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="442" key="GridCell.Tab.1.right" timestamp="1596515979621">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735206" />
+    <state width="1398" height="163" key="GridCell.Tab.2.bottom" timestamp="1600592735207">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979621" />
-    <state width="1398" height="326" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="442" key="GridCell.Tab.2.bottom" timestamp="1596515979623">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.2.bottom/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735207" />
+    <state width="1398" height="163" key="GridCell.Tab.2.center" timestamp="1600592735207">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.2.bottom/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979623" />
-    <state width="1398" height="326" key="GridCell.Tab.2.bottom/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
-    <state width="2515" height="442" key="GridCell.Tab.2.center" timestamp="1596515979622">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.2.center/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735207" />
+    <state width="1398" height="163" key="GridCell.Tab.2.left" timestamp="1600592735207">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.2.center/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
-    <state width="1398" height="326" key="GridCell.Tab.2.center/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
-    <state width="2515" height="442" key="GridCell.Tab.2.left" timestamp="1596515979622">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.2.left/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735207" />
+    <state width="1398" height="163" key="GridCell.Tab.2.right" timestamp="1600592735207">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.2.left/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
-    <state width="1398" height="326" key="GridCell.Tab.2.left/0.23.1440.832@0.23.1440.832" timestamp="1595999836649" />
-    <state width="2515" height="442" key="GridCell.Tab.2.right" timestamp="1596515979622">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state width="1398" height="163" key="GridCell.Tab.2.right/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600592735207" />
+    <state x="212" y="78" key="SettingsEditor" timestamp="1600499326607">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="2515" height="442" key="GridCell.Tab.2.right/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596515979622" />
-    <state width="1398" height="326" key="GridCell.Tab.2.right/0.23.1440.832@0.23.1440.832" timestamp="1595999836650" />
-    <state x="2367" y="402" key="NewModule_or_Project.wizard" timestamp="1595846451813">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state x="212" y="78" key="SettingsEditor/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600499326607" />
+    <state x="300" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1600565814776">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="2367" y="402" key="NewModule_or_Project.wizard/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595846451813" />
-    <state x="2230" y="331" key="SettingsEditor" timestamp="1595901764359">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state x="300" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600565814776" />
+    <state x="383" y="203" width="674" height="472" key="find.popup" timestamp="1600515904498">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="2230" y="331" key="SettingsEditor/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595901764359" />
-    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1597709828401">
-      <screen x="1440" y="23" width="2560" height="1417" />
-    </state>
-    <state x="2394" y="527" key="com.intellij.ide.util.TipDialog/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1597709828401" />
-    <state x="2405" y="456" width="674" height="472" key="find.popup" timestamp="1595850599085">
-      <screen x="1440" y="23" width="2560" height="1417" />
-    </state>
-    <state x="2405" y="456" width="674" height="472" key="find.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595850599085" />
-    <state x="2115" y="393" key="new project wizard" timestamp="1595818271940">
-      <screen x="1440" y="23" width="2560" height="1417" />
-    </state>
-    <state x="2115" y="393" key="new project wizard/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1595818271940" />
-    <state x="2386" y="326" width="670" height="675" key="run.anything.popup" timestamp="1596018692051">
-      <screen x="1440" y="23" width="2560" height="1417" />
-    </state>
-    <state x="2386" y="326" width="670" height="675" key="run.anything.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596018692051" />
-    <state x="2386" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1596019202621">
-      <screen x="1440" y="23" width="2560" height="1417" />
-    </state>
-    <state x="2386" y="328" width="670" height="676" key="search.everywhere.popup/0.23.1440.832/1440.23.2560.1417@1440.23.2560.1417" timestamp="1596019202621" />
+    <state x="383" y="203" width="674" height="472" key="find.popup/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1600515904498" />
   </component>
 </project>

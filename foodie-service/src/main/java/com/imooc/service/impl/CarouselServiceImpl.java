@@ -17,6 +17,28 @@ public class CarouselServiceImpl implements CarouselService {
     @Autowired
     private CarouselMapper carouselMapper;
 
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public List<Carousel> queryAll(Integer isShow) {
+
+        Example carouselExample = new Example(Carousel.class);
+
+        carouselExample.orderBy("sort").desc();
+        Example.Criteria criteria = carouselExample.createCriteria();
+
+        criteria.andEqualTo("isShow", isShow);
+
+        List<Carousel> result = carouselMapper.selectByExample(carouselExample);
+
+        return result;
+
+    }
+
+
+/*
+    @Autowired
+    private CarouselMapper carouselMapper;
+
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
@@ -32,4 +54,5 @@ public class CarouselServiceImpl implements CarouselService {
 
         return result;
     }
+    */
 }

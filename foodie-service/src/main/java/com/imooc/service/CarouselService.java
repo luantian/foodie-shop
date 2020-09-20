@@ -6,10 +6,45 @@ import java.util.List;
 
 public interface CarouselService {
 
+
+    public List<Carousel> queryAll(Integer isShow);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * 查询所有轮播图列表
      * @param isShow
      * @return
      */
-    public List<Carousel> queryAll(Integer isShow);
+//    public List<Carousel> queryAll(Integer isShow);
 }

@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private Sid sid;
 
-    private static final String USERFACE = "http://www.baidu.com/userface";
+    private static final String USERFACE = "https://upload.jianshu.io/users/upload_avatars/9269419/3229e6db-d674-4d1e-b33c-7eed05823a3e?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240";
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
@@ -45,9 +45,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public Users createUser(UserBO userBO) {
 
-        String userId = sid.nextShort();
-
         Users user = new Users();
+        String userId = sid.nextShort();
 
         user.setId(userId);
         user.setUsername(userBO.getUsername());

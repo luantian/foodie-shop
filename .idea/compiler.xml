@@ -8,13 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="foodie-api" />
         <module name="foodie-common" />
-        <module name="foodie-mapper" />
-        <module name="foodie-service" />
         <module name="foodie-pojo" />
+        <module name="foodie-service" />
+        <module name="foodie-mapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="food-common" target="1.5" />
+      <module name="foodie" target="1.8" />
+      <module name="foodie-api" target="1.8" />
+      <module name="foodie-common" target="1.8" />
+      <module name="foodie-mapper" target="1.8" />
+      <module name="foodie-pojo" target="1.8" />
+      <module name="foodie-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
