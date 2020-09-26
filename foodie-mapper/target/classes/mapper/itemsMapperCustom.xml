@@ -23,7 +23,6 @@
                 AND
                     ic.comment_level = #{paramsMap.level}
             </if>
-
     </select>
 
     <select id="searchItems" parameterType="Map" resultType="com.imooc.pojo.vo.SearchItemsVO">
